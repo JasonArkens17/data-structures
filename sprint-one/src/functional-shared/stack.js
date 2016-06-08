@@ -4,16 +4,16 @@ var Stack = function() {
   var newStack = {};
   newStack.index = 0;  
 
-  extend(newStack, stackMethods);
+  _.extend(newStack, stackMethods);
 
   return newStack; 
 };
 
-var extend = function(to, from) {
-  for(var key in from) {
-    to[key] = from[key];
-  }
-};
+// var extend = function(to, from) {
+//   for(var key in from) {
+//     to[key] = from[key];
+//   }
+// };
 
 var stackMethods = {};
 
@@ -27,11 +27,11 @@ stackMethods.push = function(value) {
 //pop
 stackMethods.pop = function() {
   var result = this[this.index];
-    if (this.index > 0) { 
-      delete this[this.index]; 
-      this.index--;
-      return result; 
-    } 
+  if (this.index > 0) { 
+    delete this[this.index]; 
+    this.index--;
+    return result; 
+  } 
 };
 
 //size
