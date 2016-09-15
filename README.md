@@ -9,7 +9,8 @@ Docker, AWS EC2, AWS Lambda.
 ###Build tools: 
 NPM scripting, Webpack, ESlint.
 
-###Testing: Mocha, Chai.
+###Testing: 
+Mocha, Chai.
 
 
 ### Installing Dependencies
