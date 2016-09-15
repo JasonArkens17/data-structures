@@ -6,8 +6,10 @@ Built using Node, Express, MySql, Sequalize
 ###Furutre Deployment: 
 Docker, AWS EC2, AWS Lambda.
 
-Build tools: NPM scripting, Webpack, ESlint.
-Testing: Mocha, Chai.
+###Build tools: 
+NPM scripting, Webpack, ESlint.
+
+###Testing: Mocha, Chai.
 
 
 ### Installing Dependencies
